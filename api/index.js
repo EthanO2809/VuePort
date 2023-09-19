@@ -14,7 +14,7 @@ cors(),
 routes
 );
 
-routes.get("^/$|/VuePortfolio", (req, res) => {
+routes.get("^/$|/VuePort", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./static/html/index.html"));
 }
 );

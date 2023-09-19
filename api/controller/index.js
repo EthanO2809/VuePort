@@ -1,6 +1,6 @@
 const express = require("express");
 const routes = express.Router();
-const { info } = require('../model/index')
+const { info } = require('../model')
 const bodyParser = require("body-parser");
 
 routes.get("/Information", (req, res) => {
